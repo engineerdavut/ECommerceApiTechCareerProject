@@ -17,7 +17,7 @@ public class ProductManager implements IProductService{
 	@Autowired
 	private ProductRepository productRepository;
 	@Override
-	public String create( Products products) {
+	public String create(Products products) {
 		// TODO Auto-generated method stub
 		try {
 			this.productRepository.save(products);
